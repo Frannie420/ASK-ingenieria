@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>ITSolution - Free Bootstrap 4 Template by Colorlib</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.blurred-border {
+			box-shadow: 0 0 80px rgba(0, 0, 0, 100);
+		}
+	</style>
+	<style>
+		.oval-image {
+			border-radius: 50%;
+		}
+	</style>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			var videoLinks = document.querySelectorAll(".video-popup");
+			var modal = document.getElementById("video-modal");
+			var modalVideo = modal.querySelector("video");
+
+			// Agrega el evento de clic a cada enlace de video
+			videoLinks.forEach(function (link) {
+				link.addEventListener("click", function (event) {
+					event.preventDefault();
+					var videoSrc = link.getAttribute("data-src");
+
+					// Actualiza la fuente del video modal con el enlace del video seleccionado
+					modalVideo.src = videoSrc;
+
+					// Abre el modal
+					modal.style.display = "block";
+				});
+			});
+
+			// Cierra el modal cuando se hace clic en cualquier lugar fuera de él
+			modal.addEventListener("click", function (event) {
+				if (event.target === modal) {
+					modal.style.display = "none";
+					modalVideo.pause();
+				}
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-12 col-md d-flex align-items-center">
+					<p class="mb-0 phone"><span class="mailus">Telefono:</span> <a href="#">+52 5548908083; +52
+							5524983259</a> <span class="mailus">Email:</span> <a
+							href="#">contacto@askingenieria.com.mx</a></p>
+				</div>
+				<div class="col-12 col-md d-flex justify-content-md-end">
+					<div class="social-media">
+						<p class="mb-0 d-flex">
+							<a href="https://api.whatsapp.com/send?phone=5548908083"
+								class="d-flex align-items-center justify-content-center"><span class="fa fa-whatsapp"><i
+										class="sr-only">WhatsApp</i></span></a>
+							<a href="https://www.facebook.com/askingenieria/?fref=ts"
+								class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i
+										class="sr-only">Facebook</i></span></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><img src="images/ask.jpg" alt="Logo de ASK ingeniería"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a href="#" class="nav-link">Inicio</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Qué hacemos</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Software</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Digitalización</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Biometria</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Clientes</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- END nav -->
+
+	<div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');"
+		data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
+				<div class="col-md-8 ftco-animate mt-5 pt-md-5" data-scrollax=" properties: { translateY: '70%' }">
+					<div class="row">
+						<div class="col-md-7">
+							<p class="mb-4 pl-md-5 line"
+								data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Archivonomía
+								Digitalización Gestión Documental</p>
+						</div>
+					</div>
+					<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">La Modernización De
+						<br>La Administración Publica
+					</h1>
+					<p><a href="#" class="btn btn-primary px-4 py-3">Leer mas</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="ftco-intro">
+		<div class="container">
+			<div class="row justify-content-end">
+				<div class="col-md-7">
+					<div class="row no-gutters d-flex align-items-stretch">
+						<div class="col-md-4 d-flex align-self-stretch ftco-animate">
+							<div class="services-1">
+								<div class="line"></div>
+								<div class="icon"><span class="flaticon-bolt"></span></div>
+								<div class="media-body">
+									<h3 class="heading mb-3">Consultoría en Tecnologías de la Información</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 d-flex align-self-stretch ftco-animate">
+							<div class="services-1 color-1">
+								<div class="line"></div>
+								<div class="icon"><span class="flaticon-light-bulb"></span></div>
+								<div class="media-body">
+									<h3 class="heading mb-3">Estrategia de diseño de producto</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 d-flex align-self-stretch ftco-animate">
+							<div class="services-1 color-2">
+								<div class="line"></div>
+								<div class="icon"><span class="flaticon-cyber"></span></div>
+								<div class="media-body">
+									<h3 class="heading mb-3">Desarrollo Web</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-lg-6 heading-section text-center ftco-animate">
+					<h2 class="mb-4">Servicios de Desarrollo de Software Y Apps</h2>
+                                           <p>
+                                             <span style="color: black;">Contrata la fábrica de Software a la medida con mejor relación costo beneficio del mercado.</span>
+                                           </p>
+                                </div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="services-2 text-center">
+						<div class="icon">
+							<span class="flaticon-web-programming"></span>
+						</div>
+						<div class="text">
+							<h3>Desarrollo de Apps</h3>
+							<p><span style="color: black;">Desarrollo de aplicaciones de escritorio, web y móvil (HTML, CSS, JAVASCRIPT, ANDROID,
+								JAVA,.NET, PHP).</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="images/image_7.jpg" class="img-fluid blurred-border oval-image" alt="">
+				</div>
+
+				<div class="col-md-4">
+					<div class="services-2 text-center">
+						<div class="icon">
+							<span class="flaticon-secure"></span>
+						</div>
+						<div class="text">
+							<h3>Desarrollo Aplicaciones Web</h3>
+							<p><span style="color: black;">Generamos contenido web valioso con diseños intuitivos, atractivos y funcionales,
+								incorporando recursos multimedia.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-counter img" id="section-counter">
+		<div class="container">
+			<div class="row no-gutters d-flex">
+				<div class="col-md-6 d-flex">
+					<div class="img d-flex align-self-stretch" style="background-image:url(images/about.png);"></div>
+				</div>
+				<div class="col-md-6 p-3 pl-md-5 py-5 bg-primary">
+					<div class="row justify-content-start pb-3">
+						<div class="col-md-12 heading-section heading-section-white ftco-animate">
+							<h2 class="mb-4">IDEAS DE NEGOCIO QUE <span>TRANSFORMAN</span></h2>
+							<p>Tenemos experiencia ofreciendo servicios tecnológicos para los sectores comercial,
+								defensa, educativo, energético, financiero y salud.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section services-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-6 heading-section text-center ftco-animate">
+					<h2 class="mb-4">Alto nivel de calidad</span></h2>
+				</div>
+			</div>
+			<div class="row d-flex no-gutters">
+				<div class="col-md-4 d-flex align-self-stretch ftco-animate">
+					<div class="media block-6 services d-block">
+						<div class="line"></div>
+						<div class="icon"><span class="flaticon-web-programming"></span></div>
+						<div class="media-body">
+							<h3 class="heading mb-3">Misión</h3>
+							<p>Ofrecer soluciones tecnológicas personalizadas y de calidad excepcional para satisfacer
+								cualquier tipo de necesidad. Nos comprometemos a garantizar la plena satisfacción de
+								nuestros clientes, superando sus expectativas en términos de calidad.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex align-self-stretch ftco-animate">
+					<div class="media block-6 services d-block">
+						<div class="line"></div>
+						<div class="icon"><span class="flaticon-stats"></span></div>
+						<div class="media-body">
+							<h3 class="heading mb-3">¿Por que elegirnos?</h3>
+							<p>Nuestra empresa se destaca por ofrecer soluciones tecnológicas personalizadas y de alta
+								calidad. Al elegirnos, te beneficiarás de nuestro enfoque centrado en el cliente y
+								nuestra amplia experiencia en ingeniería de software y digitalización.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex align-self-stretch ftco-animate">
+					<div class="media block-6 services d-block">
+						<div class="line"></div>
+						<div class="icon"><span class="flaticon-secure"></span></div>
+						<div class="media-body">
+							<h3 class="heading mb-3">Visión</h3>
+							<p>Ser una empresa líder en México en el desarrollo e integración de soluciones a la medida
+								de las necesidades de nuestros clientes mediante la innovación constante en nuestros
+								servicios y procesos.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section ftco-no-pt">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<h2 class="mb-4">Experiencia <span>Garanizada</span></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="project">
+						<div class="img">
+							<video width="240" height="240" controls autoplay loop muted>
+								<source src="images/video-1.mp4" type="video/mp4">
+								Tu navegador no soporta el elemento de video.
+							</video>
+						</div>
+						<div class="text text-center">
+							<h3><a href="project.html">Mantenimiento a BD (Mysql, Sql Server, Oracle)</a></h3>
+						</div>
+						<a href="" data-src="images/video-1.mp4" class="">
+                                                </a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="project">
+						<div class="img">
+							<video width="240" height="240" controls autoplay loop muted>
+								<source src="images/video-2.mp4" type="video/mp4">
+								Tu navegador no soporta el elemento de video.
+							</video>
+						</div>
+						<div class="text text-center">
+							<h3><a href="project.html">Desarrollo de Software (Acorde a sus necesidades)</a></h3>
+						</div>
+						<a href="" data-src="images/video-2.mp4" class="">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="project">
+						<div class="img">
+							<video width="240" height="240" controls autoplay loop muted>
+								<source src="images/video-3.mp4" type="video/mp4">
+								Tu navegador no soporta el elemento de video.
+							</video>
+						</div>
+						<div class="text text-center">
+							<h3><a href="project.html">HTML, CSS, JAVASCRIPT, ANDROID, JAVA, .NET, PHP</a></h3>
+						</div>
+						<a href="" data-src="images/video-3.mp4" class="">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="project">
+						<div class="img">
+							<video width="240" height="240" controls autoplay loop muted>
+								<source src="images/video-4.mp4" type="video/mp4">
+								Tu navegador no soporta el elemento de video.
+							</video>
+						</div>
+						<div class="text text-center">
+							<h3><a href="project.html">Aplicaciones de escritorio, Redes y Consultoría</a></h3>
+						</div>
+						<a href="" data-src="images/video-4.mp4" class="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section bg-light ftco-faqs">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 order-md-last">
+					<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0"
+						style="background-image:url(images/about-3.jpg);">
+					</div>
+					<div class="d-flex mt-3">
+						<div class="img img-2 mr-md-2 w-100" style="background-image:url(images/about-1.jpg);"></div>
+						<div class="img img-2 ml-md-2 w-100" style="background-image:url(images/about-2.jpg);"></div>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="heading-section mb-5 mt-5 mt-lg-0">
+						<h2 class="mb-3">Preguntas Frecuentes</h2>
+					</div>
+					<div id="accordion" class="myaccordion w-100" aria-multiselectable="true">
+						<div class="card">
+							<div class="card-header p-0" id="headingOne">
+								<h2 class="mb-0">
+									<button href="#collapseOne"
+										class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
+										data-parent="#accordion" data-toggle="collapse" aria-expanded="true"
+										aria-controls="collapseOne">
+										<p class="mb-0">¿Por que elegir ASK ingeniería?</p>
+										<i class="fa" aria-hidden="true"></i>
+									</button>
+								</h2>
+							</div>
+							<div class="collapse show" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
+								<div class="card-body py-3 px-0">
+									<ol>
+										ASK Ingeniería destaca por su compromiso con la innovación brindando soluciones
+										personalizadas que se adaptan a las necesidades de cada cliente.
+									</ol>
+								</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header p-0" id="headingTwo" role="tab">
+								<h2 class="mb-0">
+									<button href="#collapseTwo"
+										class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
+										data-parent="#accordion" data-toggle="collapse" aria-expanded="false"
+										aria-controls="collapseTwo">
+										<p class="mb-0">¿Por que tener un gestor de documentos en estos tiempos?</p>
+										<i class="fa" aria-hidden="true"></i>
+									</button>
+								</h2>
+							</div>
+							<div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
+								<div class="card-body py-3 px-0">
+									<ol>
+										El gestor de documentos ASK agiliza la búsqueda, organización y compartición de
+										archivos, optimizando la productividad y colaboración en equipos.
+									</ol>
+								</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header p-0" id="headingThree" role="tab">
+								<h2 class="mb-0">
+									<button href="#collapseThree"
+										class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
+										data-parent="#accordion" data-toggle="collapse" aria-expanded="false"
+										aria-controls="collapseThree">
+										<p class="mb-0">¿Cuáles son las ventajas de elegir ASK como socio integral de
+											tecnología?</p>
+										<i class="fa" aria-hidden="true"></i>
+									</button>
+								</h2>
+							</div>
+							<div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
+								<div class="card-body py-3 px-0">
+									<ol>
+										Experiencia integral, simplificación, conocimiento profundo del negocio, ahorro
+										de tiempo y recursos, soporte técnico unificado, enfoque estratégico a largo
+										plazo.
+									</ol>
+								</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-header p-0" id="headingFour" role="tab">
+								<h2 class="mb-0">
+									<button href="#collapseFour"
+										class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
+										data-parent="#accordion" data-toggle="collapse" aria-expanded="false"
+										aria-controls="collapseFour">
+										<p class="mb-0">¿Cuál es la importancia de la biometría y la digitalización?</p>
+										<i class="fa" aria-hidden="true"></i>
+									</button>
+								</h2>
+							</div>
+							<div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
+								<div class="card-body py-3 px-0">
+									<p>La importancia de la biometría y la digitalización radica en su capacidad para
+										mejorar la seguridad, la eficiencia y la precisión en diversos campos. La
+										biometría permite la autenticación basada en características únicas de un
+										individuo, como huellas dactilares o reconocimiento facial, lo que ayuda a
+										prevenir fraudes y garantizar la identidad de las personas. Por otro lado, la
+										digitalización transforma los procesos analógicos en formatos digitales, lo que
+										agiliza la gestión de datos, reduce el uso de papel y facilita el acceso y
+										almacenamiento de información. Ambas tecnologías son fundamentales en la era
+										digital para proteger datos, optimizar procesos y mejorar la experiencia del
+										usuario.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section ftco-no-pb testimony-section"
+		style="background-image: url(images/bg_1.jpg); height:550px;">
+		<div class="overlay-1"></div>
+		<div class="container-fluid">
+			<div class="row ftco-animate">
+				<div class="col-md-12 testimonial">
+					<div class="carousel-testimony owl-carousel ftco-owl">
+						<div class="item">
+							<div class="testimony-wrap d-flex align-items-stretch"
+								style="background-image: url(images/testimony-1.jpg);">
+								<div class="overlay"></div>
+								<div class="text">
+									<div class="line"></div>
+									<p class="mb-4">El soporte técnico brinda asistencia para resolver problemas
+										informáticos, desde diagnóstico y resolución hasta instalación y mantenimiento.
+										El proyecto específico de tu empresa puede variar según las necesidades.</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap d-flex align-items-stretch"
+								style="background-image: url(images/testimony-2.jpg);">
+								<div class="overlay"></div>
+								<div class="text">
+									<div class="line"></div>
+									<p class="mb-4">La digitalización es vital para tu empresa: optimiza operaciones,
+										mejora la experiencia del cliente, facilita la comunicación interna, abre
+										oportunidades de negocio y promueve la adaptación al entorno digital actual.</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap d-flex align-items-stretch"
+								style="background-image: url(images/testimony-3.jpg);">
+								<div class="overlay"></div>
+								<div class="text">
+									<div class="line"></div>
+									<p class="mb-4">Soluciones biométricas, implementando sistemas de reconocimiento y
+										software avanzado para mejorar la seguridad y la identificación personal en
+										diversos entornos, garantizamos la autenticidad y protección de los datos de los
+										usuarios.</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap d-flex align-items-stretch"
+								style="background-image: url(images/testimony-4.jpg);">
+								<div class="overlay"></div>
+								<div class="text">
+									<div class="line"></div>
+									<p class="mb-4">Nuestra empresa se especializa en el peritaje forense informático.
+										Analizamos evidencias digitales, identificando delitos y contribuyendo a la
+										justicia en la era digital, garantizando la protección de nuestros clientes y la
+										sociedad.</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap d-flex align-items-stretch"
+								style="background-image: url(images/testimony-5.jpg);">
+								<div class="overlay"></div>
+								<div class="text">
+									<div class="line"></div>
+									<p class="mb-4">Impulsa tu negocio con nuestro desarrollo de software personalizado.
+										Nuestro equipo crea soluciones innovadoras para tu éxito: desde aplicaciones
+										móviles hasta software empresarial. Ideas realizadas con calidad y eficiencia.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="ftco-footer ftco-footer-2 ftco-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-footer-logo">ASK ingeniería<span></h2>
+						<p>Software con alto nivel de calidad que cumpla las necesidades del usuario final.</p>
+						<ul class="ftco-footer-social list-unstyled mt-2">
+							<li class="ftco-animate"><a href="https://api.whatsapp.com/send?phone=5548908083"><span
+										class="fa fa-whatsapp"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.facebook.com/askingenieria/?fref=ts"><span
+										class="fa fa-facebook"></span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4 ml-md-5">
+						<h2 class="ftco-heading-2">Explorar</h2>
+						<ul class="list-unstyled">
+							<li><a href="#" class="py-2 d-block">Acerca de</a></li>
+							<li><a href="#" class="py-2 d-block">Contacto</a></li>
+							<li><a href="#" class="py-2 d-block">Que hacemos</a></li>
+							<li><a href="#" class="py-2 d-block">Planes y precios</a></li>
+							<li><a href="#" class="py-2 d-block">Politica de reembolso</a></li>
+							<li><a href="#" class="py-2 d-block">Llamenos</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Legal</h2>
+						<ul class="list-unstyled">
+							<li><a href="#" class="py-2 d-block">Unete a nosotros</a></li>
+							<li><a href="#" class="py-2 d-block">Blog</a></li>
+							<li><a href="#" class="py-2 d-block">Politica de privacidad</a></li>
+							<li><a href="#" class="py-2 d-block">Terminos y condiciones</a></li>
+							<li><a href="#" class="py-2 d-block">Carreras</a></li>
+							<li><a href="#" class="py-2 d-block">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">¿Tiene preguntas?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><span class="icon fa fa-map marker"></span><span class="text">Col. Cuauhtémoc C.P.
+										10020 Magdalena contreras, México, CDMX.</span></li>
+								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+52 (55)
+											48908083</span></a></li>
+								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+52 (55)
+											24983259</span></a></li>
+								<li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span
+											class="text">contacto@askingenieria.com.mx</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | ASK ingeniería
+						<i class="#" aria-hidden="true"></i><a href="#" target="#"></a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
